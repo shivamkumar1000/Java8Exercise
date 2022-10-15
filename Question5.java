@@ -13,5 +13,10 @@ interface myInterface2{
     default void perform(){
         System.out.println("Default method inside interface");
     }
-
+}
+class Maind {
+    public static void main(String[] args) {
+        Question5 ques5 = new Question5();
+        ques5.implement();
+    }
 }

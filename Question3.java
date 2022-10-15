@@ -4,3 +4,9 @@ class Question3{
         new Thread(task2).start();
     }
 }
+class Mainc {
+    public static void main(String[] args) {
+        Question3 ques3 = new Question3();
+        ques3.implement();
+    }
+}

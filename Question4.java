@@ -51,3 +51,9 @@ class Question4{
 
     }
 }
+class Maine {
+    public static void main(String[] args) {
+        Question4 ques4 = new Question4();
+        ques4.implement();
+    }
+}

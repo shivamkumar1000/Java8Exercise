@@ -21,3 +21,9 @@ class Question2{
 interface myInterface1{
     Integer perform(int a,int b);
 }
+class Mainb {
+    public static void main(String[] args) {
+        Question2 ques2 = new Question2();
+        ques2.implement();
+    }
+}
